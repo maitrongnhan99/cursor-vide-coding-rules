@@ -1,0 +1,31 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## Tech Stack
+
+### Frontend  
+- Frameworks & Libraries: Next.js 14, React 18, shadcn/ui, react-query, Apollo Client  
+- Styling: TailwindCSS, Slate.js, react-perfect-scrollbar  
+
+### Backend  
+- Server & API: Express.js, GraphQL  
+
+### Database  
+- Databases: MongoDB, IndexedDB (via RxDB)  
+- State Management & Sync: RxDB, rxdb-hooks, Web Workers  
+
+### Tooling & Build  
+- Build & Bundling: Vite, tsup, TurboRepo  
+- Configuration: ESLint, Tailwind config, TSConfig  
+
+### Testing  
+- Testing Framework: Vitest  
+
+### CI/CD & Package Management  
+- Versioning & Releasing: GitLab CI/CD, GitLab Package Registry, monorepo setup  
+
+### Other  
+- React Utilities Library: TypeScript-based  
+- GraphQL Tooling: GraphQL Codegen
