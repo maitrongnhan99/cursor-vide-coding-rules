@@ -1,6 +1,6 @@
 # Vide Coding Rules for Cursor AI
 
-A collection of predefined rules for Cursor AI to implement Vide coding best practices. This repository contains guidelines that can be added to your project's `.cursorrules` to ensure consistent, high-quality code generation.
+A collection of predefined rules for Cursor AI to implement Vide coding best practices. This repository contains guidelines that can be added to your project's `.cursor/rules` to ensure consistent, high-quality code generation.
 
 ## Overview
 
@@ -23,7 +23,7 @@ Run the installation script directly:
 curl -s https://raw.githubusercontent.com/maitrongnhan99/cursor-vide-coding-rules/main/install.sh | bash
 ```
 
-This will clone the repository and copy the rules to your project's `.cursorrules` directory.
+This will clone the repository and copy the rules to your project's `.cursor/rules` directory.
 
 ### Option 2: Manual Installation
 
@@ -33,11 +33,11 @@ This will clone the repository and copy the rules to your project's `.cursorrule
    git clone https://github.com/maitrongnhan99/cursor-vide-coding-rules.git
    ```
 
-2. Copy the rules to your project's `.cursorrules` directory:
+2. Copy the rules to your project's `.cursor/rules` directory:
 
    ```bash
-   mkdir -p /path/to/your/project/.cursorrules
-   cp *.mdc /path/to/your/project/.cursorrules/
+   mkdir -p /path/to/your/project/.cursor/rules
+   cp *.mdc /path/to/your/project/.cursor/rules/
    ```
 
 3. Customize the rules as needed for your specific project requirements.
