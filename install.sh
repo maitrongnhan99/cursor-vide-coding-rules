@@ -12,12 +12,12 @@ echo "This script will install Vide coding rules for Cursor AI to your project."
 TARGET_DIR=$(pwd)
 echo "Using current directory: $TARGET_DIR"
 
-# Check if .cursorrules directory exists, create if not
-CURSOR_RULES_DIR="$TARGET_DIR/.cursorrules"
+# Check if .cursor/rules directory exists, create if not
+CURSOR_RULES_DIR="$TARGET_DIR/.cursor/rules"
 if [ -d "$CURSOR_RULES_DIR" ]; then
-  echo "Found existing .cursorrules directory at $CURSOR_RULES_DIR"
+  echo "Found existing .cursor/rules directory at $CURSOR_RULES_DIR"
 else
-  echo "Creating .cursorrules directory at $CURSOR_RULES_DIR..."
+  echo "Creating .cursor/rules directory at $CURSOR_RULES_DIR..."
   mkdir -p "$CURSOR_RULES_DIR"
 fi
 
