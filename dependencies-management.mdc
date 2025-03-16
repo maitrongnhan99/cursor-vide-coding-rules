@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+### Dependency Management  
+- Regularly update dependencies: Ensure that all dependencies are kept up to date to benefit from security patches, performance improvements, and new features. Use tools like Dependabot, Renovate, or npm/yarn package managers to automate updates.  
+- Scan for vulnerabilities: Utilize security scanning tools such as `npm audit`, `yarn audit`, `Snyk`, or `OWASP Dependency-Check` to identify and remediate security issues in dependencies.  
+- Minimize dependency footprint: Avoid unnecessary dependencies to reduce security risks, maintainability issues, and bundle size. Regularly audit and remove unused or redundant packages. Consider using tree shaking and alternative lightweight libraries when possible.
