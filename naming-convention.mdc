@@ -1,0 +1,38 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## Naming Conventions  
+
+### General Principles  
+- Use descriptive and meaningful names that clearly convey the purpose of variables, functions, and classes.  
+- Follow domain-driven naming—use terms relevant to the subject area of the application.  
+- Maintain consistency in naming patterns across the entire codebase.  
+
+### Variable & Function Naming  
+- Use camelCase for variables and functions in JavaScript/TypeScript (e.g., `fetchUserData`, `isLoggedIn`).  
+- Avoid single-letter variable names unless used in a limited scope (e.g., loop counters like `i`, `j`).  
+- Avoid ambiguous abbreviations—prefer full, readable words (`userCount` instead of `usrCnt`).  
+- Prefix boolean variables with `is`, `has`, or `can` to indicate their nature (e.g., `isAuthenticated`, `hasAccess`).  
+- Use nouns for variables (e.g., `userProfile`) and verbs for functions (e.g., `fetchUserData`).  
+
+### Component & Class Naming  
+- Use PascalCase for React components and classes (e.g., `UserProfile`, `ChatMessage`).  
+- Ensure component names describe their purpose (e.g., `SidebarMenu` instead of `MenuComp`).  
+- Use consistent suffixes for common component patterns (e.g., `ButtonPrimary`, `ModalConfirm`).  
+
+### Constants & Enums  
+- Use UPPER_CASE_SNAKE_CASE for constants (e.g., `MAX_RETRIES`, `DEFAULT_THEME`).  
+- Use PascalCase for enums and define their values in uppercase (e.g., `enum UserRole { ADMIN, USER, GUEST }`).  
+
+### File & Folder Naming  
+- Use kebab-case for filenames in Next.js projects (e.g., `user-profile.tsx`, `auth-service.ts`).  
+- Use lowercase for folders, keeping related files in meaningful directories (`components/`, `utils/`).  
+- For module-based structures, group files logically (e.g., `services/user-service.ts`, `hooks/useAuth.ts`).  
+
+### AI Coding Naming Considerations  
+- Ensure AI-generated code follows project-specific naming conventions automatically.  
+- Validate AI-generated variable names against domain-specific terminology.  
+- Avoid vague or overly generic names (`temp`, `data`, `info`) in AI-generated functions.  
+- Ensure AI-generated constants and enums follow the structured naming format.  
