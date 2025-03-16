@@ -15,6 +15,8 @@ This repository contains a set of rules and guidelines that help Cursor AI gener
 
 ## How to Use
 
+Navigate to your project's root directory and run one of the following commands:
+
 ### Option 1: Quick Install (Recommended)
 
 Run the installation script directly:
