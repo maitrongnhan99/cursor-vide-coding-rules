@@ -8,13 +8,8 @@ NC='\033[0m' # No Color
 echo -e "${YELLOW}Vide Coding Rules Installer${NC}"
 echo "This script will install Vide coding rules for Cursor AI to your project."
 
-# Get the target directory from the user or use current directory
-read -p "Enter the path to your project (leave empty for current directory): " TARGET_DIR
-TARGET_DIR=${TARGET_DIR:-$(pwd)}
-echo "Using directory: $TARGET_DIR" 
-
 # Check if .cursor/rules directory exists, create if not
-CURSOR_RULES_DIR="$TARGET_DIR/.cursor/rules"
+CURSOR_RULES_DIR=".cursor/rules"
 if [ -d "$CURSOR_RULES_DIR" ]; then
   echo "Found existing .cursor/rules directory at $CURSOR_RULES_DIR"
 else
