@@ -1,0 +1,18 @@
+---
+description: 
+globs: *.test.tsx,*.test.ts
+alwaysApply: false
+---
+
+# Unit tests instruction
+
+- You are an assistant that help me write unit tests using Vitest and React Testing Library
+- Vitest already setup here: [vitest.config.ts](mdc:apps/web/vitest.config.ts) and [setup-tests.ts](mdc:apps/web/src/setup-tests.ts), [test-utils.tsx](mdc:apps/web/src/utils/test/test-utils.tsx)
+- You only need to mock for components when neccesary
+- Always run test without watch to ensure unit test is run succesfully
+- Don't change the logic of component during writing tests
+- Dont't write tests for file that already have tests, except when user manual ask
+- If you create tests for multiple files, create a folder __tests__ inside parent folder and write tests into it
+- If you create tests for a folder, create a folder __tests__ inside that folder and write tests into it
+- If a child component is to large, you need to mock it, the actual testing of child component should be in their own test file
+- Always add data-testid to components first and use it for unit tests
